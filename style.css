@@ -1,35 +1,32 @@
 body {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    
-    margin-top: 5%;
-    margin-left: 5%;
-
     font-family: 'Open Sans', sans-serif;
     color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
     
-
 }
 
-img{
-    
+img{ 
     height: 450px;
     width: 850px;
 }
 div.main-container{
-    position: relative;
-    text-align: center;
-    margin-bottom: 20px;
+    flex-direction: column;
+    display: flex;
+   column-gap: 20px;
+   
+   
 }
 
 .logo{
-    display: flex;
-    
-    position:relative;
-    top:50%;
-    left:50%;
-    transform: translate(-50%,-50%);
+  
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
     font-size: 100px;
     text-shadow: 4px 4px 4px rgb(194, 12, 12),
      6px 6px 4px rgb(55, 190, 28),
@@ -42,25 +39,34 @@ main{
     color: black;
     height: 324px;
     width: 850px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    position: relative;
-    
-    
-    
-    
+    margin-top: 20px;
     
 }
+    
+header{
+    margin-top: 20px;
+    height: 450px;
+    width: 850px;
+    background-image: url("aldebaran-s-uXchDIKs4qI-unsplash.jpg");
+   background-position: center;
+   background-size: cover;
+   position:relative
+    
+}
+    
+    
+    
+
 .heading{
     display: flex;
-    flex-direction: column;
     margin-top: 20px;
     
 }
-.contact_text{
+.information{
     display: flex;
-    flex-direction: column;
-    margin-top: 20px;
-    column-gap: 25%;
+    
+}
+.media_links{
+    display: flex;
+
 }
