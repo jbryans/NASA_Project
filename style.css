@@ -34,7 +34,7 @@ div.main-container{
      10px 10px 4px rgb(4, 34, 41);
 }
 main{
-    border: black 2px groove;
+   
     background-color: #E6E6E6;
     color: black;
     height: 324px;
@@ -42,7 +42,7 @@ main{
     margin-top: 20px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content:space-between ;
     align-items: flex-start;
     
     
@@ -76,7 +76,12 @@ h3{
     display: flex;
     flex-direction: column;
     width: 270px;
-    margin-left: 20px
+    margin-left: 20px;
+    font-size: 12px;
+    gap: 7px;
+    margin-top: 20px;
+
+    
 }
 
 header{
@@ -103,10 +108,29 @@ header{
 }
 .information{
    /* border: red 1px groove; */
-   font-size: small;
+   font-size: 12px;
 
 }
 .media_links{
     /* border: rgb(176, 212, 12) 1px groove; */
-   font-size: small
+   font-size: 12px;
+}
+.namebox{
+    border: none;
+}
+.heighttext{
+    display:inline-block;
+    padding:15px 10px;
+    line-height:140%;
+    border: none;
+}
+.senddesign{
+    color: #f7f5f5;
+    background-color: #4D4D4D;
+    font-weight: 600;
+    margin-top: 10px;
+    padding:2%;
+    width:20%;
+    border: none;
+    
 }
