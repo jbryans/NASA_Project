@@ -117,12 +117,13 @@ header{
 }
 .namebox{
     border: none;
+    width: 165px;
 }
 .heighttext{
     display:inline-block;
     padding:15px 10px;
-    line-height:140%;
     border: none;
+    width: 150px;
 }
 .senddesign{
     color: #f7f5f5;
